@@ -1,2 +1,81 @@
-<html>
+<!DOCTYPE html>
+
+<!-- Parth waz here -->
+
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Parth Soni">
+		
+		<!-- Custom Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400italic,300,300italic,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,100,400' rel='stylesheet' type='text/css'>
+		
+    <title>Parth Soni - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->    
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico">
+	<!--   -->
+  </head>
+  <body>
+  
+
+  <nav> <!-- Navigation Starts here  -->
+  </nav><!-- Navigation Ends here  -->
+
+
+
+
+
+  	<!--  Start of Footer -->
+  	<footer>
+  		<div class="wrapper">
+	  		<div class="container">
+		  		<div class="row">
+			  		<div class="col-xs-12">
+
+			  		</div>
+		  		</div>
+	  		</div>
+  		</div>
+  	</footer>
+  	<!-- End of Footer  --> 
+  
+	  
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    
+	  	<script>
+			$('.link-scroll').click(function(e) {
+		e.preventDefault();
+		var target = this.hash,
+			$target = $(target);
+		$('html, body').stop().animate({
+
+			'scrollTop': $target.offset().top
+		}, 1200, 'swing', function() {
+			window.location.hash = target;
+
+		});
+	});
+			
+	</script>    
+
+
+  </body>
 </html>
