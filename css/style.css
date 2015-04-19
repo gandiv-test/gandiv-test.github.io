@@ -9,7 +9,6 @@ html {
   
   
 body {
-/*   min-width: 960px; */
   margin : 0;
   font-family: 'Roboto', sans-serif;  
   font-size: 1.6rem;
@@ -33,10 +32,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-size: 5.1rem;
-  line-height: 2.5rem;
+  font-size: 3.1rem;
+  line-height: 1.7;
   font-family: 'Roboto Slab', serif;
   color: #00305A;
+  margin-top:0;
    }
 
 h2, .h2 {
@@ -60,3 +60,76 @@ h4, .h4 {
   line-height: 2.0rem;
   color:#fff;
   }
+  
+/*  Nav Bar */
+#magenta {
+background-color: #F34A53; 
+	
+}
+#yellow {
+	background-color: #F2C12E;
+	
+}
+#orange {
+	background-color: #F29D35; 
+}
+.navbar-nav li{
+	font-size: 1.8rem;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+}
+.navbar-brand a, .navbar-brand{
+	padding-top:0;
+}
+.navbar-default {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+	border:none;
+}
+.navbar-toggle .icon-bar{
+	height:6px;
+	width:28px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background:none;
+}
+.navHeaderCollapse {
+	padding:0;
+}
+.navbar-nav {
+	margin:0;
+	text-align: center;
+}
+
+#magenta_m, #yellow_m, #orange_m{
+	background:none;
+}
+.navbar-toggle{
+	padding: 4px 20px;
+}
+.navbar{
+	padding-top:20px;
+	padding-bottom:20px;
+	transition:padding 0.5s ease-out;
+}
+
+@media (max-width:768px){
+	.navbar-default .navbar-nav > li > a{
+	color:#fff;
+}
+	.navbar-nav li{
+		font-weight: 400;
+	}
+	
+	#magenta_m {
+		background-color: #F34A53; 
+		
+	}
+	#yellow_m {
+		background-color: #F2C12E;
+		
+	}
+	#orange_m {
+		background-color: #F29D35; 
+	}
